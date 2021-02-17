@@ -1,6 +1,7 @@
 import axios from "axios";
+import config from "../config";
 
-const KEY = "AIzaSyDF-DHW8OV6B8yZ8prnuviNCbWsDJjFNiA";
+const KEY = config.API_KEY;
 
 export default axios.create({
   baseURL: "https://www.googleapis.com/youtube/v3",
